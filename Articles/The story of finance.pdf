@@ -1,0 +1,24 @@
+The Story of Greeks in Finance
+-Nilotpal Mrinal
+
+The need
+         I have seen most of the novice (including me), who are mathematics majors or those coming from computer science, without having a background in finance, find it difficult to get an intuition of the greek letters used. Personally, I believe that there are only two reasons for that. First reason is the interrelatedness of the terms adds to the complexity and makes it more tantalizing to comprehend all the other terms and the second reason is their name itself. Unlike the conventional way of understanding (or at least getting an overview) , greek letters don't give us any intuition of what they are doing. Hence, understanding and differentiating the terms poses a challenge for the novices. 
+
+What do they do?
+         A thousand miles away definition of these greek letters can be comprehend as  a tool for risk management. The risk management of course is the management of the risk associated with an underlying asset. Here, in the paragraphs below, we will be discovering some major first and second order greeks. The order here refers to the order of derivatives. They are extensively used for hedging the risk by portfolio managers and the traders in the trading rooms. Greeks in the Black-scholes model go relatively easier with the calculation and operations with them. Basically, in mathematical finance, Greek letters arm us to understand price sensitivity. Let’s understand a few major ones which are used extensively.
+The Letters
+Mathematical rigour has been eliminated in the definitions below to show the theoretical and comprehensive definitions of these terms. I have assumed that readers from a mathematical background should not find it difficult to go through.
+
+Delta :- It’s a first order derivative which means it measures rates of change. It measures the rate of change in the price of option to the underlying asset. Yes! That’s it. Although it looks so naive in its definition, but, it has quite remarkable properties and forms the basis of mathematical finance.
+Theta :- Theta is one of the most used symbols in academia and industries. In the context of mathematical finance, it basically gives us an intuition of the decay of option’s price with respect to time. It is also a first order derivative. That's quite intuitive. To understand it more better, we can draw an analogy as time derivative from physics. 
+Gamma :- Well, this is the second order derivative and it takes the derivative of the delta defined above with respect to the price of the underlying asset. The double derivative of the price of option to the underlying asset. Now, what that means in the physical world is to take the double derivative of options price. Following lines from wikipedia explains the best-
+“When a trader seeks to establish an effective delta-hedge for a portfolio, the trader may also seek to neutralize the portfolio's gamma, as this will ensure that the hedge will be effective over a wider range of underlying price movements. ”
+
+Vega :- First of all, Vega is not a greek letter. It’s greek representation is often termed as kappa. Some people say “ the term Vega is derived from Vegas”. Vega represents the rate of change between an option's value and the underlying asset's implied volatility. This is the option's sensitivity to volatility.
+Rho :- Rho is also one of the most used first order derivatives in the finance market.Unlike others which measure the price sensitivity. The domain of rho is limited to the sensitivity to the interest rate. It is the derivative of the option value with respect to the risk free interest rate.
+Speed  :- The term here is quite a bit confusing because of its wide use in physics and day to day life to denote the motion of a physical object. The speed here denotes the third order derivative actually. It’s the derivative of gamma (explained above) with respect to the underlying asset price. 
+                 There are plenty of other greek symbols being used for different purposes. Since this article is intended only for the beginners to give the basic intuition of greek symbols in Finance, I hope the above explanation should be enough. 
+
+Conclusion
+There are several other measures as well for the risk analysis such as Bond duration and convexity and beta. But, most important among them all are the greeks letters as shown above. All the greek letters combine together to give a strong tool for risk analysis. Most of the traders in the trading room have advanced degrees in computer science and are well experienced in drawing conclusions (from these symbols), which consequently drives their decision making. 
+
